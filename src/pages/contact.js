@@ -20,8 +20,8 @@ const ContactPage = () => {
                     <p className={styles.lead}>I'm open to new opportunities and chatting.</p>
                 </header>
 
-                <form name="Contact Form" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/thank-you">
-                    <input type="hidden" name="form-name" value="Contact Form" />
+                <form name="Contact Form" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                   
                     <div className={styles.formRow}>
                         <label>Email:</label>
                         <input type="email" name="email" />
@@ -34,7 +34,7 @@ const ContactPage = () => {
                         <label>Message:</label>
                         <textarea name="message" />
                     </div>
-                    <ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
+                    <div data-netlify-recaptcha="true"></div>
                     <button type="submit" className={btnStyles.btn + " " + btnStyles.btn_red}>Send</button>
                 </form>
                 
