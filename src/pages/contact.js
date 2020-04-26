@@ -21,6 +21,8 @@ const ContactPage = () => {
                 </header>
 
                 <form name="Contact Form" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+
+                <input type="hidden" name='form-name' value="Contact Form" />
                    
                     <div className={styles.formRow}>
                         <label>Email:</label>
