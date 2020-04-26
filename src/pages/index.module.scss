@@ -1,0 +1,25 @@
+@import "../styles/vars.scss";
+
+
+.header {
+    text-align: center;
+    padding: 6em 0;
+}
+
+.display1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: $black;
+}
+
+.display2 {
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: .3em;
+    margin-bottom: .8em;
+}
+
+.display3 {
+    font-size: 1.3em;
+    padding: 0 5vw;
+}

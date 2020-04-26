@@ -1,0 +1,71 @@
+@import "../styles/vars.scss";
+
+@mixin button-reset {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn {
+
+    @apply button-reset;
+    outline: none;
+
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+    margin: 2px;
+    padding: .3em .8em;
+
+    border: solid 2px transparent;
+    border-radius: 6px;
+    
+
+
+    &::-moz-focus-inner {
+        border: none;
+    }
+
+
+    &:active {
+        transform: translateY(1px);
+    }
+
+    &:hover,  &:focus {
+        filter: saturate(150%);
+    }
+
+}
+
+.btn_red {
+    color: $white;
+    background-color: $red;
+}
+
+.btn_outline_red {
+    color: $red;
+    border: 2px solid $red;
+}
+
+.btn_brown {
+    color: $white;
+    background-color: $brown;
+}
+
+.btn_outline_brown {
+    color: $brown;
+    border: 2px solid $brown;
+}
+
+.btn_tan {
+    color: $black;
+    background-color: $tan;
+}
+.btn_outline_tan {
+    color: $tan;
+    border: 2px solid $tan;
+}

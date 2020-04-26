@@ -1,0 +1,35 @@
+@import "../styles/vars.scss";
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 2.5em;
+
+    ul { 
+        margin: 0;
+        li, li a svg {
+            display: inline;
+        }
+        li a, li a svg {
+            font-weight: 700;
+            font-size: 125%;
+            color: $red;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
+
+        &:first-child {
+            a, a svg {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+.social {
+    padding-right: .3em;
+    padding-left: 0;
+}

@@ -1,0 +1,27 @@
+@import "../styles/vars.scss";
+
+.footer {
+
+    padding-top: 3em;
+    padding-bottom: 1em;
+    font-size: .8em;
+    text-align: center;
+
+    a {
+        color: $black;
+        font-weight: 700;
+    }
+
+    span, p, svg {
+        display: inline;
+        line-height: px;
+    }
+
+    svg {
+        position: relative;
+        top: .125em;
+        height:1em;
+        width:1em;
+    }
+  
+}
