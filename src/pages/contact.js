@@ -20,25 +20,28 @@ const ContactPage = () => {
                     <p className={styles.lead}>I'm open to new opportunities and chatting.</p>
                 </header>
 
-                <form name="Contact Form" method="POST" data-netlify="true">
 
-                    <input type="hidden" form-name="Contact Form" value="Contact Form" />
-                   
-                    <div className={styles.formRow}>
-                        <label>Email:</label>
-                        <input type="email" name="email" />
-                    </div>
-                    <div className={styles.formRow}>
-                        <label>Name:</label>
-                        <input type="text" name="nome" />
-                    </div>
-                    <div className={styles.formRow}>
-                        <label>Message:</label>
-                        <textarea name="message" />
-                    </div>
-                    
-                    <button type="submit" className={btnStyles.btn + " " + btnStyles.btn_red}name="send">Send</button>
-                </form>
+                <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="bot-field" />
+  
+                    <label>
+                        Name
+                        <input type="text" name="name" id="name" />
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" id="email" />
+                    </label>
+                    <label>
+                        Subject
+                        <input type="text" name="subject" id="subject" />
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" id="message" rows="5" />
+                    </label>
+                    <button type="submit">Send</button>
+                    </form>
                 
             </section>
             
