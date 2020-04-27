@@ -22,7 +22,7 @@ const ContactPage = () => {
 
                 <form name="Contact Form" method="POST" data-netlify="true">
 
-                <input type="hidden" form-name="Contact Form" value="Contact Form" />
+                    <input type="hidden" form-name="Contact Form" value="Contact Form" />
                    
                     <div className={styles.formRow}>
                         <label>Email:</label>
@@ -30,14 +30,14 @@ const ContactPage = () => {
                     </div>
                     <div className={styles.formRow}>
                         <label>Name:</label>
-                        <input type="text" name="name" />
+                        <input type="text" name="nome" />
                     </div>
                     <div className={styles.formRow}>
                         <label>Message:</label>
                         <textarea name="message" />
                     </div>
                     
-                    <button type="submit" className={btnStyles.btn + " " + btnStyles.btn_red}>Send</button>
+                    <button type="submit" className={btnStyles.btn + " " + btnStyles.btn_red}name="send">Send</button>
                 </form>
                 
             </section>
