@@ -12,38 +12,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
   return (
     
-      <article>
-     
-
-            {post.frontmatter.title}
-     
-          Posted  {post.frontmatter.date} / By <Link to="/#about">Flavia Nunes</Link> /
-        <section dangerouslySetInnerHTML={{ __html: post.rawMarkdownBody }} />
-        <hr/>
-      </article>
+      <h1>ok</h1>
     
   )
 }
 
 export default BlogPostTemplate
 
-export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    markdownRemark(fields: {slug: {eq: $slug}}) {
-      id
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-      }
-      rawMarkdownBody
-    }
-  }
-`
+

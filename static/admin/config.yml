@@ -2,8 +2,8 @@ backend:
   name: github
   repo: flavianunes/fluvixx.dev
 
-media_folder: static/assets
-public_folder: /assets
+media_folder: src/images
+public_folder: /public  
 
 collections:
   - name: blog
