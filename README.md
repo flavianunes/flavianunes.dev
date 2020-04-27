@@ -21,7 +21,7 @@ Personal website developed with Gatsby's default starter
     Navigate into the site’s directory and start it up.
 
     ```shell
-    cd fluvixx/
+    cd fluvixx.dev/
     gatsby develop
     ```
 
