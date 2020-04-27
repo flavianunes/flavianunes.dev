@@ -13,7 +13,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 1.  **Clone the repo.**
 
     ```shell
-    git clone git@github.com:flavianunes/fluvixx.git
+    git clone git@github.com:flavianunes/fluvixx.dev.git
     ```
 
 1.  **Start developing mode.**
