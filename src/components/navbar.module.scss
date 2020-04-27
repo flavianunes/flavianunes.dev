@@ -33,3 +33,10 @@
     padding-right: .3em;
     padding-left: 0;
 }
+
+@media screen and (max-width: 450px) {
+    .rede {
+        display: none;
+    }
+
+}

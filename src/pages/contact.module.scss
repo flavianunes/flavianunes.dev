@@ -1,8 +1,87 @@
+@import "../styles/vars";
+
 .header {
     text-align: center;
-    padding: 6em 0;
+    padding: 4em 0;
 }
 
 .lead {
     font-size: 1.5em;
 }
+
+.blur {
+    filter: blur(5px);
+    user-select: none;
+
+}
+
+.modal {
+    display: block !important;
+    padding: 20px;
+    background-color: $tan; 
+    color: $black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+
+}
+
+
+.closeBtn {
+
+    margin-left: 15px;
+    color: $white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        color: $black;
+    }
+  }
+
+
+  .form {
+
+    width: 50%;
+    margin: auto;
+
+    .row {
+        margin-bottom: 1em;
+
+
+
+        input, textarea {
+            margin-top: .5em;
+            width: 100%;
+            border: none;
+            box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.06);
+            border-radius: 6px;
+            padding: .5em;
+            font-size: 1em;
+            
+        }
+        input:focus, textarea:focus {
+            background: rgba($tan, .3);
+            border: 2px solid $tan;
+            outline: none;
+        }
+        input {
+            height: 3em;;
+        }
+    }
+    .btnSubmit {
+        font-size: 1.1em;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .form {
+        width: 80%;
+    }
+  }

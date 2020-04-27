@@ -33,7 +33,7 @@ const ProjectsPage = () => {
                     <p className={styles.lead}>Articles about projects I've been part of.</p>
                 </header>
                 {projects.map((project) => {
-                    return (<Card title={project.title} description = {project.description} tags = {project.tags} url={project.url} />)
+                    return (<Card title={project.title} description = {project.description} tags = {project.tags} url={project.url} key={project.url} />)
                 })}
             </section>
             

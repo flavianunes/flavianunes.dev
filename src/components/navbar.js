@@ -12,10 +12,10 @@ const Navbar = ({ siteTitle }) => (
   <nav className={styles.navbar}>
     <ul>
       <li><Button to="/" text="Home" /></li>
-      <li><Button to="/projects" text="Work & Projects" /></li>
-      <li><Button to="/contact" text="Get in touch" /></li>
+      <li><Button to="/projects" text="Projects" /></li>
+      <li><Button to="/contact" text="Contact" /></li>
     </ul>
-    <ul>
+    <ul className={styles.rede}>
       <li><a href="twitter" className={buttonStyles.btn + " "+ styles.social}><AiOutlineTwitter/></a></li>
       <li><a href="twitter" className={buttonStyles.btn + " "+ styles.social}><AiFillLinkedin/></a></li>
       <li><a href="twitter" className={buttonStyles.btn + " "+ styles.social}><AiFillGithub/></a></li>
