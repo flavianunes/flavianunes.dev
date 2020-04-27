@@ -20,7 +20,7 @@ const ContactPage = () => {
                     <p className={styles.lead}>I'm open to new opportunities and chatting.</p>
                 </header>
 
-                <form name="Contact Form" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                <form name="Contact Form" method="POST" data-netlify="true">
 
                 <input type="hidden" form-name="Contact Form" value="Contact Form" />
                    
@@ -36,7 +36,7 @@ const ContactPage = () => {
                         <label>Message:</label>
                         <textarea name="message" />
                     </div>
-                    <div data-netlify-recaptcha="true"></div>
+                    
                     <button type="submit" className={btnStyles.btn + " " + btnStyles.btn_red}>Send</button>
                 </form>
                 
