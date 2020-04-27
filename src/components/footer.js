@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./footer.module.scss"
-import {AiOutlineHeart, AiOutlineCopyrightCircle} from "react-icons/ai"
+import { AiOutlineCopyrightCircle} from "react-icons/ai"
 
 const Footer = () => {
     return (

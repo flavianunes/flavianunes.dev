@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import styles from "./card.module.scss"
 
 const Card = ({title, description, tags, url, id}) => {
-    let i = 0;
+
     return (
 
         <article className={styles.card} key={id}>
