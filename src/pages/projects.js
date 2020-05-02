@@ -7,22 +7,11 @@ import SEO from "../components/seo"
 import styles from "./projects.module.scss"
 
 
-const ProjectsPage = () => {
+const ProjectsPage = ({ data }) => {
+ 
 
-    const projects = [
+    const projects =  data.allMarkdownRemark.edges  
 
-        {   title: "Teste1", 
-            description: "lorem", 
-            tags: ["teste", "hmm"], 
-            url: "/project/teste1"
-        },
-        {   title: "Teste2", 
-            description: "lorem", 
-            tags: ["teste", "hmm"], 
-            url: "/project/teste2"
-        }
-
-    ]
     
     return (
         <Layout>
@@ -33,7 +22,7 @@ const ProjectsPage = () => {
                     <p className={styles.lead}>Articles about projects I've been part of.</p>
                 </header>
                 {projects.map((project) => {
-                    return (<Card title={project.title} description = {project.description} tags = {project.tags} url={project.url} key={project.url} />)
+                    return (<Card title={project.node.frontmatter.title} description = "" tags = {project.node.frontmatter.tags} url={project.node.frontmatter.slug} key={project.node.id} />)
                 })}
             </section>
             
@@ -43,3 +32,20 @@ const ProjectsPage = () => {
 }
 
 export default ProjectsPage
+
+export const posts = graphql`
+query BlogPosts {
+    allMarkdownRemark {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            tags
+            slug
+          }
+        }
+      }
+    }
+  }
+  `

@@ -1,8 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { AiFillGithub, AiOutlineGlobal} from "react-icons/ai"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles from "./styles.module.scss"
+import btnStyles from "../components/button.module.scss"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark  
@@ -18,19 +20,16 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                       
             <section>
                 <header>
-                   
                     <h1> {post.frontmatter.title} </h1>
+                    <a href={post.frontmatter.github} target="_blank" className={btnStyles.btn + " " +btnStyles.btn_gray + " " + styles.btn_project}> <AiFillGithub />  GitHub repositorie </a>
+                <a href={post.frontmatter.live} target="_blank" className={btnStyles.btn + " " +btnStyles.btn_gray + " " + styles.btn_project}> <AiOutlineGlobal />  Live version</a>
                 </header>
-
-
+                
                 
                 <div className={styles.content} dangerouslySetInnerHTML={createMarkup()}></div>
                 
             </section>
 
-            <div className={styles.gallery}>
-                  <img src={ post.frontmatter.image} />
-            </div>
             
         </Layout>
    
@@ -50,8 +49,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title,
-        image,
-        tags
+        tags,
+        live,
+        github,
         date(formatString: "MMMM DD, YYYY")
       }
     }
