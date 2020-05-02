@@ -8,6 +8,8 @@ tags:
   - vanilla js
   - education
   - open source
+live: https://ariel-chatbot.surge.sh
+github: https://github.com/flavianunes/ariel-chatbot/
 ---
 ![ARIEL UI](/img/screenshot-from-2020-05-02-14-21-36.png "ARIEL UI")
 
