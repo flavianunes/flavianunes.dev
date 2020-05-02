@@ -9,11 +9,11 @@ tags:
   - education
   - open source
 ---
+![ARIEL UI](/img/screenshot-from-2020-05-02-14-21-36.png "ARIEL UI")
+
 ARIEL was developed to share knowledge, motivate and empower women learning front-end development. The main goal is to contribute to a more diverse tech community. 
 
 The chatbot's UX was designed during the [Future Learn](https://www.futurelearn.com/) "Design a Feminist Chatbot" course and it was developed with vanilla JavaScript, Sass and Gulp v4.
-
-![ARIEL UI](/img/screenshot-from-2020-05-02-14-21-36.png "ARIEL UI")
 
 ## Features
 
