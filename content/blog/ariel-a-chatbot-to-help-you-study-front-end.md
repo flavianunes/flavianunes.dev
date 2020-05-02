@@ -2,6 +2,12 @@
 slug: ariel-chatbot
 date: 2020-04-28T13:46:09.693Z
 title: "Ariel: A chatbot to help you study front-end"
+image: /img/screenshot-from-2020-05-02-14-21-36.png
+tags:
+  - chatbot
+  - vanilla js
+  - education
+  - open source
 ---
 ARIEL was developed to share knowledge, motivate and empower women learning front-end development. The main goal is to contribute to a more diverse tech community.
 
