@@ -22,6 +22,7 @@ Personal website developed with Gatsby's default starter
 
     ```shell
     cd fluvixx.dev/
+    yarn install
     gatsby develop
     ```
 
