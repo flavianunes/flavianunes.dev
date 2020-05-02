@@ -1,0 +1,35 @@
+header {
+    padding: 2em;
+    margin-top: 1em;
+    text-align: center;
+    h1 {
+        font-size: 3em;
+    }
+}
+
+.content {
+    padding: 0 1em;
+    p, ul li {
+        font-size: 1.1em;
+        line-height: 26px;
+    }
+    ul li {
+        margin-bottom: .5em;
+        strong {
+            text-transform: uppercase;
+        }
+    }
+    h2 {
+        font-size: 1.8em;
+        line-height: 2em;
+        margin-top: 1em;
+    }
+}
+
+.coverImg {
+    max-width: 100%;
+
+    img {
+        width: 50%;
+    }
+}
