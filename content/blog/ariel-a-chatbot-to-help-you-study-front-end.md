@@ -1,7 +1,7 @@
 ---
 slug: ariel-chatbot
 date: 2020-04-28T13:46:09.693Z
-title: "Ariel: AARI chatbot to help you study front-end"
+title: ARIEL
 tags:
   - chatbot
   - vanilla js
