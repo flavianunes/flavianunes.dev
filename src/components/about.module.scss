@@ -12,7 +12,10 @@
     }
     .pic {
         flex: 30%;
-
+        img {
+            max-width: 300px;
+        }
+        
 
     }
     .description {
