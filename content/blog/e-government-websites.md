@@ -6,7 +6,7 @@ tags:
   - accessibility
   - usability
   - e-gov
-  - full-stack
+  - design system
 description: Projects I've worked during my time working as a web developer at
   Ouro Preto City Hall
 live: "null"
@@ -18,4 +18,4 @@ During my time working as a web developer at Ouro Preto City Hall I've designed 
 
 The results where presented with an in dept analysis and the prototype for a new website, inspired by the [official website of the Gouvernement du Québec](https://www.quebec.ca/en/) and [GOV.UK](https://www.gov.uk). Besides the new website, the project also has a simple design system with the goals to make all websites consistent in the future. 
 
-This project is currently in development.
+Most websites were developed using Node.js, Express, MySQL database, Gulp, jQuery and Bootstrap.
