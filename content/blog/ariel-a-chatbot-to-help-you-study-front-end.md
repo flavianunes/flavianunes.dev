@@ -12,7 +12,7 @@ live: https://ariel-chatbot.surge.sh
 github: https://github.com/flavianunes/ariel-chatbot/
 image: /img/screenshot-from-2020-05-02-14-21-36.png
 ---
-![ARIEL UI](/img/screenshot-from-2020-05-02-14-21-36.png "ARIEL UI")
+![ ](/img/screenshot-from-2020-05-02-14-21-36.png " ")
 
 ARIEL is being developed to share knowledge, motivate and empower Brazilian women learning front-end development. The main goal is to contribute to a more diverse tech community. 
 

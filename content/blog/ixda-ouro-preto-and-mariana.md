@@ -9,6 +9,8 @@ description: Projects I've been part of as an Interaction Design Association loc
 live: "null"
 github: "null"
 ---
+![ ](/img/61778831_2488280397872234_5232139558103023616_n.jpg " ")
+
 During my time as a IxDA local leader (2018-2019), I helped planning events and meetups to bring discussion about interaction design to two cities of Minas Gerais: Ouro Preto and Mariana.
 
 Some of those events were: 
