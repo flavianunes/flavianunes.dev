@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'Inconsolata';
-    src:
-         url('/font/inconsolata.ttf')  format('truetype'), /* Safari, Android, iOS */
+    src: url('/font/inconsolata.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-display: swap;
 }
 
 * {
