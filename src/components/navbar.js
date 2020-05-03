@@ -7,7 +7,7 @@ import styles from "./navbar.module.scss"
 
 import {AiOutlineTwitter, AiFillLinkedin, AiFillGithub} from "react-icons/ai"
 
-const Navbar = ({ siteTitle }) => (
+const Navbar = () => (
   <nav className={styles.navbar}>
     <ul className={styles.links}>
       <li><Button to="/" text="Home" /></li>
@@ -21,13 +21,5 @@ const Navbar = ({ siteTitle }) => (
     </ul>
   </nav>
 )
-
-Navbar.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Navbar.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Navbar

@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import { AiFillGithub, AiOutlineGlobal} from "react-icons/ai"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,7 +8,7 @@ import btnStyles from "../components/button.module.scss"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark  
-  const { previous, next } = pageContext
+  //const { previous, next } = pageContext
 
   function createMarkup() {
     return {__html: post.html}
