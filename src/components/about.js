@@ -11,7 +11,7 @@ const About = () => {
                 <p> Besides coding, I enjoy creating user-centered UIs and I also have experience with Adobe XD, Figma, usability and accessibility evaluation. My hobbies include creating Spotify playlists (<a href="https://open.spotify.com/playlist/72kKVyzwVgkgmeBqU3X84q?si=46lgUrBfRFi8_VaHICg0xw" target="_blank" rel="noopener noreferrer">here's one</a>) and playing the ukulele.</p>
             </div>
             <div className={styles.pic}>
-                <img src="/img/flavia.jpg" alt=""/>
+                <img src="/img/flavia.webp" alt=""/>
             </div>
             <small className={styles.description} aria-hidden="true">that's me!</small>
 
