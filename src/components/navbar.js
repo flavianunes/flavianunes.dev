@@ -15,9 +15,9 @@ const Navbar = ({ siteTitle }) => (
       <li><Button to="/contact" text="Contact" /></li>
     </ul>
     <ul className={styles.rede}>
-      <li><a href="https://twitter.com/tweetsdafla" className={buttonStyles.btn + " "+ styles.social} title="Twitter" target="blank"><AiOutlineTwitter/></a></li>
-      <li><a href="https://www.linkedin.com/in/flanunes/" className={buttonStyles.btn + " "+ styles.social} title="Linkedin" target="blank"><AiFillLinkedin/></a></li>
-      <li><a href="https://github.com/flavianunes" className={buttonStyles.btn + " "+ styles.social} title="Github" target="blank"><AiFillGithub/></a></li>
+      <li><a href="https://twitter.com/tweetsdafla" className={buttonStyles.btn + " "+ styles.social} aria-label="Twitter" target="blank"><AiOutlineTwitter/></a></li>
+      <li><a href="https://www.linkedin.com/in/flanunes/" className={buttonStyles.btn + " "+ styles.social} aria-label="Linkedin" target="blank"><AiFillLinkedin/></a></li>
+      <li><a href="https://github.com/flavianunes" className={buttonStyles.btn + " "+ styles.social} aria-label="Github" target="blank"><AiFillGithub/></a></li>
     </ul>
   </nav>
 )

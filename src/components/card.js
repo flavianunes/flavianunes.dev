@@ -9,7 +9,7 @@ const Card = ({title, description, tags, url, id}) => {
 
         <article className={styles.card} key={id}>
             <Link to={url}>
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{description}</p>
                 <ul>
                 {tags.map((tag) => {

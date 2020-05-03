@@ -29,7 +29,7 @@ const ContactPage = ({ location }) => {
             <section className={blur}>
                 <header className={styles.header}>
                     <h1>Get in touch</h1>
-                    <p className={styles.lead}>I'm open to new opportunities and chatting.</p>
+                    <h2 className={styles.lead}>I'm open to new opportunities and chatting.</h2>
                 </header>
 
 

@@ -18,7 +18,7 @@ const ProjectsPage = ({ data }) => {
             <section>
                 <header className={styles.header}>
                     <h1>Work & Projects</h1>
-                    <p className={styles.lead}>Articles about projects I've been part of.</p>
+                    <h2 className={styles.lead}>Articles about projects I've been part of.</h2>
                 </header>
                 {projects.map((project) => {
                     return (<Card title={project.node.frontmatter.title} description = {project.node.frontmatter.description} tags = {project.node.frontmatter.tags} url={project.node.frontmatter.slug} key={project.node.id} />)

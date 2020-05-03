@@ -1,8 +1,12 @@
 @import "./vars";
 @import "./reset";
-
-
 @import "./headings";
+
+@font-face {
+    font-family: 'Inconsolata';
+    src:
+         url('/font/inconsolata.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 
 * {
     box-sizing: border-box;
@@ -29,6 +33,10 @@ p {
 a {
     text-decoration: none;
     color: $red;
+
+    &:hover {
+        filter: saturate(250%);
+    }
 }
 
 .container {
