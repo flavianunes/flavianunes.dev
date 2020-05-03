@@ -12,7 +12,7 @@ description: Projects I've worked during my time working as a web developer at
 live: "null"
 github: "null"
 ---
-![Print from website](/img/screenshot-from-2020-05-02-23-59-57.png "Print from website")
+![ ](/img/screenshot-from-2020-05-02-23-59-57.png " ")
 
 During my time working as a web developer at Ouro Preto City Hall I've designed and developed a few e-government websites with focus on the citizen. I also evaluated the main website's usability and accessibility from an e-gov perspective, using System Usability Scale, Heuristic Evaluation, automated and human accessibility evaluations.
 
