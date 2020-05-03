@@ -14,7 +14,8 @@ collections:
       - { name: slug, label: Slug }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
-      - {name: tags, label: Tags, widget: list}
-      - {name: live, label: Live Version}
-      - {name: github, label: Github Link}
+      - { name: tags, label: Tags, widget: list }
+      - {name: description, label: Description }
+      - { name: live, label: Live Version }
+      - { name: github, label: Github Link }
       - { name: body, label: Body, widget: markdown }
