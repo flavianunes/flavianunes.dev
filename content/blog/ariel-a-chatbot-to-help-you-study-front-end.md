@@ -1,25 +1,26 @@
 ---
 slug: ariel-chatbot
 date: 2020-04-28T13:46:09.693Z
-title: "Ariel: A chatbot to help you study front-end"
-image: /img/screenshot-from-2020-05-02-14-21-36.png
+title: "Ariel: AARI chatbot to help you study front-end"
 tags:
   - chatbot
   - vanilla js
   - education
   - open source
+description: A chatbot app that helps Brazilian women to study front-end development
 live: https://ariel-chatbot.surge.sh
 github: https://github.com/flavianunes/ariel-chatbot/
+image: /img/screenshot-from-2020-05-02-14-21-36.png
 ---
 ![ARIEL UI](/img/screenshot-from-2020-05-02-14-21-36.png "ARIEL UI")
 
-ARIEL was developed to share knowledge, motivate and empower women learning front-end development. The main goal is to contribute to a more diverse tech community. 
+ARIEL is being developed to share knowledge, motivate and empower Brazilian women learning front-end development. The main goal is to contribute to a more diverse tech community. 
 
-The chatbot's UX was designed during the [Future Learn](https://www.futurelearn.com/) "Design a Feminist Chatbot" course and it was developed with vanilla JavaScript, Sass and Gulp v4.
+The chatbot's UX was designed during the [Future Learn](https://www.futurelearn.com/) "Design a Feminist Chatbot" course and it's being implemented with vanilla JavaScript, Sass and Gulp. The simple stack is meant to be beginner friendly for its users.
 
-## Features
+ARIEL can help them with:
 
-* <strong>Motivation</strong>: ARIEL shares motivation content aimed at women in tech.
-* <strong>Technical content</strong>: ARIEL shares with users information about topics related to front-en, such as HTML, CSS and JavaScript, and links to useful resources about those topics.
-* <strong>Exercises</strong>: ARIEL shares exercises and challenges based on topics the user would like to practice.
-* <strong>Feedback</strong>: ARIEL has areas where the user can ask for a specific content or give feedback about the chatbot.
+* <strong>Motivation</strong>: shares motivational content aimed at women in tech
+* <strong>Technical content</strong>: shares with users information about topics related to front-en, such as HTML, CSS and JavaScript, and links to useful resources about those topics.
+* <strong>Exercises</strong>: shares exercises and challenges based on topics that users would like to practice
+* <strong>Feedback</strong>: has areas where the user can ask for a specific content or give feedback about the chatbot
