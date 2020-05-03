@@ -15,7 +15,7 @@ const ContactPage = ({ location }) => {
     return (
 
         <Layout>
-            <SEO title="Projects" />
+            <SEO title="Projects" description="Hey there, I'm open to new opportunities and chatting. Get in touch with me." />
 
             {(location.hash === "#success") ?
                 (<div className={styles.modal}>

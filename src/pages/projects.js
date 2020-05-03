@@ -14,7 +14,7 @@ const ProjectsPage = ({ data }) => {
     
     return (
         <Layout>
-            <SEO title="Projects" />
+            <SEO title="Projects" description="List of selected projects I've been part of, designing, developing and/or planning." />
             <section>
                 <header className={styles.header}>
                     <h1>Work & Projects</h1>

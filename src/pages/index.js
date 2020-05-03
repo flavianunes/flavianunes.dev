@@ -10,7 +10,7 @@ import styles from "./index.module.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" description=""/>
+    <SEO title="Home" description="Hey there, I'm Flaiva Nunes, a UX developer and this is my personal website."/>
     <header className={styles.header}>
       <h1 className={styles.display1}>I'm Flavia Nunes</h1>
       <h2 className={styles.display2}>UI/UX developer</h2>
