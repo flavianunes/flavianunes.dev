@@ -6,7 +6,6 @@ tags:
   - chatbot
   - vanilla js
   - educational
-  - open source
 description: A chatbot app that helps Brazilian women to study front-end development
 live: https://ariel-chatbot.surge.sh
 github: https://github.com/flavianunes/ariel-chatbot/
