@@ -5,7 +5,7 @@ title: ARIEL
 tags:
   - chatbot
   - vanilla js
-  - education
+  - educational
   - open source
 description: A chatbot app that helps Brazilian women to study front-end development
 live: https://ariel-chatbot.surge.sh
