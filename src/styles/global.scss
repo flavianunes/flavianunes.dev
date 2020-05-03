@@ -28,6 +28,7 @@ p {
 
 a {
     text-decoration: none;
+    color: $red;
 }
 
 .container {
@@ -39,7 +40,7 @@ a {
 }
 
 .text-red {
-    color: red;
+    color: $red;
 }
 
 @media only screen and (min-width: 1360px) {

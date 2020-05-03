@@ -1,5 +1,4 @@
 import React from "react"
-
 import Card from "../components/card"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -22,7 +21,7 @@ const ProjectsPage = ({ data }) => {
                     <p className={styles.lead}>Articles about projects I've been part of.</p>
                 </header>
                 {projects.map((project) => {
-                    return (<Card title={project.node.frontmatter.title} description = "" tags = {project.node.frontmatter.tags} url={project.node.frontmatter.slug} key={project.node.id} />)
+                    return (<Card title={project.node.frontmatter.title} description = {project.node.frontmatter.description} tags = {project.node.frontmatter.tags} url={project.node.frontmatter.slug} key={project.node.id} />)
                 })}
             </section>
             
@@ -43,6 +42,7 @@ query BlogPosts {
             title
             tags
             slug
+            description
           }
         }
       }

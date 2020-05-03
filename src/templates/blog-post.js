@@ -21,8 +21,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             <section>
                 <header>
                     <h1> {post.frontmatter.title} </h1>
-                    <a href={post.frontmatter.github} target="_blank" className={btnStyles.btn + " " +btnStyles.btn_gray + " " + styles.btn_project}> <AiFillGithub />  GitHub repositorie </a>
-                <a href={post.frontmatter.live} target="_blank" className={btnStyles.btn + " " +btnStyles.btn_gray + " " + styles.btn_project}> <AiOutlineGlobal />  Live version</a>
+                    {(post.frontmatter.github === null) ? <a href={post.frontmatter.github} target="_blank" rel="noopener noreferrer" className={btnStyles.btn + " " +btnStyles.btn_gray + " " + styles.btn_project}> <AiFillGithub />  GitHub repositorie </a> : ""}
+
+                    {(post.frontmatter.live === null) ? <a href={post.frontmatter.live} target="_blank"  rel="noopener noreferrer"className={btnStyles.btn + " " +btnStyles.btn_gray + " " + styles.btn_project}> <AiOutlineGlobal />  Live version</a> : ""}
+                    
+                    
                 </header>
                 
                 
