@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { JsonLd } from './JsonLd'
+import  JsonLd  from './JsonLd'
 
 
 function SEO({ title, description }) {
@@ -14,8 +14,7 @@ function SEO({ title, description }) {
 
       <meta name="og:title" property="og:title" content={title + " | Flavia Nunes | Frontend developer. UX design enthusiast."} />
 
-      <JsonLd>
-          {{
+      <JsonLd children={{
             '@context': 'https://schema.org',
             '@type': 'Organization',
             url: 'http://flavianunes.dev',
@@ -24,8 +23,9 @@ function SEO({ title, description }) {
               '@type': 'ContactPoint',
               email: 'flavianunesdev@gmail.com',
             },
-          }}
-        </JsonLd>
+          }} />
+          
+
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXX-X"></script>
       <script type="application/ld+json">{`
